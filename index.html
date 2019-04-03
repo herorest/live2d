@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live2D Simple</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=4.0"></meta>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="waifu">
+            <div class="waifu-tips"></div>
+            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        </div>
+        <script src="jquery.js"></script>
+        <script src="live2d.js"></script>
+        <script src="waifu_tips.js"></script>
+        <script type="text/javascript">
+            loadlive2d("live2d", "Tia/model.json");
+        </script>
+    </body>
+</html>
